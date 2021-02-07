@@ -1,4 +1,4 @@
-React Fundamentals.
+# React Fundamentals...
 
 #function and class components
-# state and props
+#state and props
