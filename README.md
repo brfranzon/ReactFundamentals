@@ -4,4 +4,4 @@
 
 #state and props
 
-#useState ans useEffect 
+#useState and useEffect 
