@@ -1,24 +1,24 @@
 import React from 'react';
 
 import Header from './components/Header/Header';
-import Body from './components/Body/Body';
+import Body   from './components/Body/Body';
 import Footer from './components/Footer/Footer';
+import Counter from './components/Counter/Counter';
 
 
 export default function App() {
 
-    return (
+    const linksArray = ['Sobre', 'Contato', 'Info', 'Login'];
 
+    return (
         <div>
             <Header title="ReactJS"
-                    links={['Sobre', 'Contato', 'Info', 'Login', 'LogOut']}
+                    links = {linksArray}
             />
             <Body />
             <Footer />
+            <Counter/>
         </div>
-
-
-
     );
 
 
